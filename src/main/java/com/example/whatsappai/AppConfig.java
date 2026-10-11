@@ -9,7 +9,7 @@ public class AppConfig {
     private String webhookVerifyToken;
 
     @Value("${whatsapp.access-token:}")
-    private String accessToken;
+    private String whatsappAccessToken;
 
     @Value("${WHATSAPP_PHONE_NUMBER_ID:}")
     private String whatsappPhoneNumberId;
