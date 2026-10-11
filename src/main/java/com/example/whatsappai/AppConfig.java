@@ -8,8 +8,8 @@ public class AppConfig {
     @Value("${WHATSAPP_VERIFY_TOKEN:change-me}")
     private String webhookVerifyToken;
 
-    @Value("${WHATSAPP_ACCESS_TOKEN:}")
-    private String whatsappAccessToken;
+    @Value("${whatsapp.access-token:}")
+    private String accessToken;
 
     @Value("${WHATSAPP_PHONE_NUMBER_ID:}")
     private String whatsappPhoneNumberId;
